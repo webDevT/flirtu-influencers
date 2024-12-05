@@ -459,7 +459,10 @@ p
         font-weight: 800
         font-style: italic
         line-height: 1
-        margin-bottom: 20px
+        padding-bottom: 20px
+        display: block 
+        margin-left: auto 
+        margin-right: auto
 .sub-title
     text-align: center
     font-size: 18px
@@ -512,7 +515,7 @@ p
 
         
 .title-text
-    font-size: 30px 
+    font-size: 29px 
     line-height: 1
     font-weight: 800
     font-style: italic
@@ -583,6 +586,13 @@ p
         background-clip: text
         text-fill-color: transparent
         display: inline-block
+.content__header-text--pink
+    background: linear-gradient(91.1deg, #FF2045 9.72%, #EB5228 99.05%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    background-clip: text
+    text-fill-color: transparent
+    display: inline-block
 .content__header:nth-child(2)
     display: flex 
     justify-content: center
@@ -687,7 +697,7 @@ p
         width: 16px
 .discount
     display: flex 
-    justify-content: space-between
+    justify-content: flex-start
     align-items: center
     width: 100%
     font-size: 17px
@@ -695,7 +705,7 @@ p
     display: flex 
     align-items: center
     justify-content: flex-end
-    width: 100%
+    padding-left: 10px
 .discount__value
     font-size: 18px
     .through 
@@ -756,6 +766,8 @@ p
     font-size: 24px
 .items-list
     margin-top: 20px
+.title-text--xs
+    font-size: 24px
 @import "media"
 
 
